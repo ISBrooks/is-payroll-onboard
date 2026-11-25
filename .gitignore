@@ -1,0 +1,22 @@
+# --- secrets: never in git ---
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# --- data: the ledger, statements, history uploads and anything exported ---
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.xlsx
+*.log
+logs/
+
+# --- machine-local ---
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/

@@ -1,0 +1,4 @@
+# Everything here runs on a Linux server: keep line endings LF on every machine.
+* text=auto eol=lf
+*.png binary
+*.xlsx binary
